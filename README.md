@@ -3,3 +3,6 @@
 - A basic git tutorial: https://try.github.io/levels/1/challenges/1
 - Learn how to clone this repository on to your computer: https://help.github.com/articles/cloning-a-repository/
 - The simple guide to git: http://rogerdudler.github.io/git-guide/
+
+# Our Slack Group
+- https://advprogrammingproject.slack.com
