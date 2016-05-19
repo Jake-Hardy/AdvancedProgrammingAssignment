@@ -6,3 +6,15 @@
 
 # Our Slack Group
 - https://advprogrammingproject.slack.com
+
+# TODO
+- Setup backlog
+
+# Ideas
+- Autofill agent if provided with license number
+- AJAX for selling status on homes
+- Offer class
+- - buyerOffers;
+- - sellerOffers;
+- - lastOfferTimer;
+
