@@ -4,6 +4,9 @@
 - Learn how to clone this repository on to your computer: https://help.github.com/articles/cloning-a-repository/
 - The simple guide to git: http://rogerdudler.github.io/git-guide/
 
+# Updates
+The link to the spreadsheet for the design of the Homes table is here: https://docs.google.com/spreadsheets/d/14KIjDLZxT1-_t1EDUHWjDF0zfXBNoyges2DzSjqvG4I/edit?usp=sharing
+
 # Our Slack Group
 - https://advprogrammingproject.slack.com
 
