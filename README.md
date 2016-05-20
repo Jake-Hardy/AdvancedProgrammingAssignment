@@ -15,6 +15,14 @@ The link to the spreadsheet for the design of the Homes table is here: https://d
 - Start on basic styles 
 - Begin basic backend
 
+# Useful Links
+- CSS Shapes: https://css-tricks.com/examples/ShapesOfCSS/
+- Color Scheme generator: https://coolors.co/
+- 50 CSS Snippets: http://www.hongkiat.com/blog/css-snippets-for-designers/
+- Popular responsive designs: http://mediaqueri.es/
+- Lorem Ipsum generator for filler text: http://www.lipsum.com/
+- HTML and CSS support for various browsers: http://caniuse.com/
+
 # Ideas
 - Autofill agent if provided with license number
 - AJAX for selling status on homes
@@ -28,4 +36,4 @@ The link to the spreadsheet for the design of the Homes table is here: https://d
 - Owner likes arctax.com design
 - User favorites list
 - - Mobile users can favorite houses to view later on PC
-- 
+
