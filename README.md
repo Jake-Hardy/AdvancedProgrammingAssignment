@@ -8,7 +8,15 @@
 - The simple guide to git: http://rogerdudler.github.io/git-guide/
 
 # Updates
+Homes table may get split up into two seperate tables; one for Homes, and one for listings. Does anybody have thoughts on this?
+
 The link to the spreadsheet for the design of the Homes table is here: https://docs.google.com/spreadsheets/d/14KIjDLZxT1-_t1EDUHWjDF0zfXBNoyges2DzSjqvG4I/edit?usp=sharing
+
+Link to spreadsheet for Buyers table design: https://docs.google.com/spreadsheets/d/1LhzIV7JC78rhCRfZN8BbF2T28_8M0Ycqt6gJDPyIsvk/edit?usp=sharing
+
+Link to spreadsheet for Sellers table design: https://docs.google.com/spreadsheets/d/1q5stOYqrk4H-Du2moZbCdXfNRmbfOQmbwZEidLgt2pw/edit?usp=sharing
+
+Link to spreadsheet for Members table design: https://docs.google.com/spreadsheets/d/1L1iLRI5ZK87dRHlyQ6NryK0LEv2NO0DFBtlNxOTGcxA/edit?usp=sharing
 
 # Our Slack Group
 - https://advprogrammingproject.slack.com
