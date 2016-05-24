@@ -1,0 +1,27 @@
+- Scrum != Agile && Agile != Scrum
+- PO creates backlog
+- Team pulls chunk from log, completes tasks
+- Agile is a development philosophy that delivers value incrementally in an environment where requirements and solutions evolve through customer collaboration.
+- Scrum is a specific implementation of Agile that utilizes timeboxing along with pre-defined roles and artifacts
+- Late 90's were a challenging time for software development. Projects were late, over budget, and not well received by the stakeholders
+- A group of seventeen people who called themselves "organizational anarchists" meet at Snowbird, Utah in February 2001 to discuss and network.
+- From this gathering they created and published the Agile Manifesto
+- Clearly communicate needs with PO to determine Minimally Viable Product
+- Software over documentation, but documentation is still important
+- Tools and processes are necessary to complete a job, but not as important as the team using them
+- A great team with average tools is far superior to an average team with great tools
+- Transparency is key in Agile development
+- Documentation should be minimally sufficient
+- Scrum: The Art of Doing Twice the Work in Half the Time
+
+
+
+Backlog
+- Created by PO typically
+- Pull items from log, groom, and move to sprint log
+- TO DO / DOING / DONE
+- Prioritize tasks
+- Break down large tasks into smaller, managable pieces
+- After a sprint, reprio
+- Deliver incrementally
+- After a sprint, retrospect
