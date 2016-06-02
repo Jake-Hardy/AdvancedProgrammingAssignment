@@ -8,6 +8,7 @@
 - The simple guide to git: http://rogerdudler.github.io/git-guide/
 
 # Updates
+6/2  - Added first sprint backlog: https://docs.google.com/spreadsheets/d/1PbgcCKWHLiBhB4TxaG6a21P8yMKIGb303ITVeBuE3VY/edit?usp=sharing
 5/29 - Updated Product Backlog: https://docs.google.com/spreadsheets/d/1vw_J2s3Q-3k2FGAi-5dGm2JSe1COEK0bjaR0yiAQyNU/edit?usp=sharing
 
 Homes table may get split up into two seperate tables; one for Homes, and one for listings. Does anybody have thoughts on this?
