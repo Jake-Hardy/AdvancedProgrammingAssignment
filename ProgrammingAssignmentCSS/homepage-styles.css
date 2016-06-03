@@ -189,6 +189,18 @@ body {
     padding: 2.5rem;
 
     background-color: #4B6643;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.about-us h2 {
+    width: 12rem;
+    margin: 0 auto;
+
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid white;
 }
 
 .footer {
