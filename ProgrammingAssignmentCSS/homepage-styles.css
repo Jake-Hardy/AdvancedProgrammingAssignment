@@ -52,12 +52,13 @@ body {
 }
 
 .landing-page--header {
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
+	font-family: "Pinyon Script", cursive;
+    font-size: 5.5rem;
+    /*letter-spacing: .3rem;*/
 
     color: white;
-    font-variant: small-caps;
-    text-decoration: underline;
+    /*font-variant: small-caps;*/
+    /*text-decoration: underline;*/
     text-shadow: 0 0 5px #333;
 }
 
@@ -189,9 +190,22 @@ body {
     padding: 2.5rem;
 
     background-color: #4B6643;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.about-us h2 {
+    width: 12rem;
+    margin: 0 auto;
+
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid white;
 }
 
 .footer {
+	font-family: "Pinyon Script", cursive;
     text-align: center;
     font-weight: bold;
 }
