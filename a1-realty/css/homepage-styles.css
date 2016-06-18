@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Muli', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* === ELEMENT STYLES ======================================================= */
+
+.shadow {
+    box-shadow: 3px 3px 3px #cdcdcd;
+}
+
+.label__refine {
+    font-family: "Pinyon Script", cursive;
+    text-decoration: underline;
+}
+
+.search-field {
+    width: 50%;
+}
+
+.img--browse {
+    width: 100%;
+    height: 100%;
+
+    background-color: firebrick;
+}
+
+.browse {
+    background:
+        linear-gradient(rgba(75,102,67,0.2), rgba(162,229,144,0.2)),
+        url(../images/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+/* === WRAPPER STYLES ======================================================= */
+
+.wrapper--header {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.wrapper--browse {
+    width: 70%;
+
+    margin: 5rem auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+/* === HEAD / NAV STYLES ==================================================== */
+
+.header {
+    height: 5rem;
+
+    /*padding: 1rem;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+    background-color: #0D1F22;
+}
+
+.header--logo {
+    padding-left: 1rem;
+    color: white;
+    font-family: "Pinyon Script", cursive;
+}
+
+.header--nav {
+    display: flex;
+}
+
+.nav--item {
+    /*margin: .5rem;*/
+    padding: .5rem;
+
+    height: 100%;
+
+    align-self:center;
+    line-height: 4rem;
+
+    color: white;
+    transition: all .3s;
+}
+
+.nav--item:hover {
+    background-color: #4C5454;
+    border-bottom: 3px solid #D5A021;
+}
+
+
+
+
+
+/* === LANDING PAGE STYLES ================================================== */
+
+.landing-page {
+    width: 100%;
+    height: 850px;
+
+    padding-top: 225px;
+
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;*/
+
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(75,102,67,0.2), rgba(162,229,144,0.2)),
+        url(../images/landing-page.jpg);
+}
+
+.landing-page--header,
+.landing-page--span,
+.landing-page div {
+    width: 100%;
+
+    text-align: center;
+}
+
+.landing-page--header {
+    font-family: "Pinyon Script", cursive;
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+
+    color: white;
+    /*font-variant: small-caps;*/
+    text-decoration: underline;
+    text-shadow: 0 0 5px #333;
+}
+
+.landing-page--span {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.landing-page--container {
+    margin-top: 1rem;
+}
+
+.landing-page--icon {
+    width: 300px;
+    height: 300px;
+
+    margin: 6rem 2rem 0;
+    text-shadow: 1px 1px #cdcdcd;
+
+    fill: white;
+    transition: all 1s;
+}
+
+.landing-page--icon:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+/* === CONTAINER STYLES ===================================================== */
+
+.container {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.container--card {
+    -webkit-display: flex;
+            display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+.container--main-content {
+    width: 70%;
+
+    margin: .8rem 1rem;
+}
+
+.container--secondary-content {
+    position: fixed
+}
+
+.container--secondary-content__search-filter {
+    width: 25%;
+    height: 100vh;
+
+    margin-top: 0;
+
+    position: fixed;
+    top: 5rem;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    border-left: 3px solid #0D1F22;
+    border-bottom: 3px solid #0D1F22;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.container--secondary-content__search-filter * {
+    margin: .2rem auto;
+}
+
+.container--options__browse {
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 1rem;
+    background: rgba(75, 102, 67, 0.7);
+    border: 3px solid #1F331A;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* === CARD STYLES ========================================================== */
+.card {
+    width: 30%;
+    height: 29rem;
+    margin: 2rem auto;
+    /*padding: 0 .5rem;*/
+
+    display: inline-block;
+    position: relative;
+    /*overflow: hidden;*/
+
+    border: 1px solid #676767;
+    /*border-radius: 18px;*/
+
+    transition: all .5s;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.card--label__city {
+    width: 40%;
+
+    position: absolute;
+    top: -50px;
+    left: 30%;
+
+    background-color: #359CB2;
+    border-radius: 3px;
+    text-align: center;
+
+    color: white;
+}
+
+.card--image {
+    width: 100%;
+    height: 12.5rem;
+
+    /*border: 1px solid black;*/
+    background-color: firebrick;
+}
+
+.card--details {
+    list-style: none;
+}
+
+.card--details li {
+    margin-bottom: 2.7rem;
+}
+
+.card--home__browse {
+    width: 80%;
+    height: 10rem;
+
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 1px solid #cdcdcd;
+    background: rgba(255,255,255,0.5);
+
+    transition: all .3s;
+}
+
+.card--home__browse:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.card--home__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+.card--home__section:not(:first-child) {
+    margin: .5rem;
+}
+
+
+
+
+
+/* === BUTTON STYLES ======================================================== */
+
+.button {
+    line-height: 1.5rem;
+    color: white;
+    background-color: #359CB2;
+    border: 0;
+
+    transition: all 1s;
+}
+
+.button:hover {
+    background-color: #28798C;
+}
+
+.button:active {
+    transition: background-color 0.2s, scale 0.2s;
+    background-color: #0C2C33;
+    transform: scale(1.3, 1.3);
+}
+
+
+
+
+
+/* === ABOUT US STYLES ====================================================== */
+
+.about-us {
+    padding: 2.5rem;
+
+    background-color: #4B6643;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.about-us h2 {
+    width: 12rem;
+    margin: 0 auto;
+
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+.footer {
+    width: 100%;
+    height: 2rem;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-top: 1px solid #0D1F22;
+
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+    font-weight: bold;
+}
