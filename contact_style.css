@@ -1,0 +1,78 @@
+body {
+	font-family: 'Muli', sans-serif;
+	background:
+        linear-gradient(rgba(75,102,67,0.2), rgba(162,229,144,0.2)),
+        url(landing-page.jpg);
+}
+.wrapper--header {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    height: 5rem;
+
+    /*padding: 1rem;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+    background-color: #0D1F22;
+}
+
+.header--logo {
+    padding-left: 1rem;
+    color: white;
+    font-family: "Pinyon Script", cursive;
+}
+
+
+.container {
+	display: flex;
+	width: 100;
+	height: 100;
+	align-items: center;
+	justify-content: center;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.2em;
+	border: 2px solid black;
+	border-radius: 15px 25px;
+	background: white;
+	padding: 20px;
+	margin-top: 80px;
+	width: 35%;
+	height: 35%;
+	opacity: 0.6;
+}
+
+.footer {
+    width: 100%;
+    height: 2rem;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-top: 1px solid #0D1F22;
+
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+	text-align: center;
+}
